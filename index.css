@@ -1,0 +1,111 @@
+body {
+  background: #f2f2f2 url('tiles.jpg');
+  width: 100%;
+}
+
+.w { margin: 0 50px;
+  padding: 20px 40px;
+   padding-top: 35px;
+    background: #dff6f0;
+    min-width: 260px;
+     max-width: 1000px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+ }
+
+.profile{
+  float:right;
+  width:150px;
+}
+
+h1 {
+  font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
+  color: #454545;
+   font-size: 3.6rem;
+    margin-bottom: 6px;
+}
+
+h2 {
+  font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
+   color: #484848;
+    font-size: 2.5rem;
+     margin-bottom: 10px;
+      text-decoration: underline;
+ }
+
+h3 {
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+   color: #565656;
+    font-size: 1.8rem;
+     line-height: 1.4rem;
+      margin-bottom: 15px;
+ }
+
+ p {
+   font-family: "Balthazar", "Droid Serif", serif;
+    color: #565656;
+     font-size: 1.8em;
+     line-height: 1em;
+      margin-bottom: 15px;
+       padding-left: 35px;
+ }
+
+ .exp-title {
+   padding-left: 35px;
+    margin-bottom: 0;
+   }
+
+ .exp-job-time {
+   float: right;
+  }
+
+.exp-job{
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 5px;
+ }
+
+ ul {
+   display: block;
+ }
+ ul li {
+   margin-left: 45px;
+    list-style-type: circle;
+     vertical-align: top;
+      margin-bottom: 0;
+       font-family: "Balthazar", "Droid Serif", serif;
+        color: #666;
+         font-size: 1.8em;
+          line-height: 1.5em;
+ }
+
+ ul li:last-child {
+   margin-bottom: 15px;
+ }
+
+ .skills-left {
+   display: block;
+    float: left;
+    margin-right: 30px;
+   }
+
+ .skills-right {
+   display: block;
+   float: left;
+ }
+
+ .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+
+ .clearfix {
+   display: inline-block;
+ }
